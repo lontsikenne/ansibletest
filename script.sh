@@ -1,7 +1,7 @@
 #!/bin/bash
-touch /oracle/home/test
-mkdir /oracle/home/folder1
-echo 'hello this is a test of a copy file scripts using ansible' > /oracle/home/test
-cp /oracle/home/test /oracle/home/folder1/
-chown oracle /oracle/home/folder1/ 
+touch /home/oracle/test
+mkdir /home/oracle/folder1
+echo 'hello this is a test of a copy file scripts using ansible' > /home/oracle/test
+cp /home/oracle/test /home/oracle/folder1/
+chown oracle /home/oracle/folder1/
 
